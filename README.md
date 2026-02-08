@@ -9,3 +9,6 @@ Práctica 2  API REST
 | POST   | /api/carritos       | {idArticulo, descripcion, unidades}   | Crea un carrito                | 201, 400 |
 | PUT    | /api/carritos/{id}  | {idArticulo, descripcion, unidades}   | Actualiza un carrito           | 200, 404, 400 |
 | DELETE | /api/carritos/{id}  | -                                     | Borra un carrito               | 204, 404 |
+
+
+{id} representa el identificador del carrito (idCarrito)
