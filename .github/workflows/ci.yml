@@ -19,4 +19,5 @@ jobs:
           java-version: "17"
 
       - name: Build with Maven
+        working-directory: practica2
         run: mvn -B clean package -DskipTests
